@@ -48,8 +48,7 @@ public class Demo {
             }****/
             //byte[] data = client.fileAccess("JYMF","358000251_json",1);
             //System.out.println(new String(data,"UTF-8"));
-            client.upload("lala","12121_json",1,"txt",new byte[]{97,97,97});
-
+            client.upload("lala","test_json_3",1,"txt","hellow world 3".getBytes("utf-8"));
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
